@@ -11,6 +11,13 @@
     z-index: -1;
 }
 
+.cover{
+    display: none;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 .title{
     position: absolute;
     left:3%;
@@ -146,10 +153,11 @@ h1 {
   /*I am */
 
   .Iam {
-    padding: 2em 5em;
+    padding-top: 1.8em;
     font: normal 2.7vw/3.5vw Amethysta, serif;
     color: #fff;
     zoom: .65;
+    min-width: 70vw;
   }
   .Iam p {
     height: 3.5vw;
@@ -279,3 +287,59 @@ h1 {
       opacity:1;
   }
 }
+
+@media screen and (max-width: 1000px) {
+
+
+    h1{
+        font-size: 2.2vw;
+    }
+
+    span{
+        font-size: 7vw;
+    }
+
+    .Iam {
+        zoom: .8;
+    }
+
+    
+    }
+
+@media screen and (max-width: 700px) {
+    .intro{
+        background-image: none;
+        background-color: black;
+        height: 40vw;
+    }
+
+    .cover{
+        display: block;
+    }
+
+    .title{
+        top: 90%;
+    }
+
+    h1{
+        font-size: 2.7vw;
+    }
+
+    span{
+        font-size: 9vw;
+    }
+
+    .Iam {
+        zoom: 1;
+    }
+    
+    }
+    
+    @media screen and (max-width: 500px) {
+        .intro{
+            background-image: none;
+            background-color: black;
+            height: 40vw;
+        }
+    }
+        
