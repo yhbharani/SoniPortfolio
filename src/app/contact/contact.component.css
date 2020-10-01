@@ -1,0 +1,51 @@
+.contact{
+    background-image: url(../../assets/contact.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 810px;
+    background-color: #000;
+}
+
+.logos{
+    position: relative;
+    top: 80%;
+    left: 20%;
+    -webkit-filter: drop-shadow(-5px 2px 25px #000);
+    filter: drop-shadow(-5px 2px 25px #000);
+    
+}
+
+.icon{
+    transition: transform .2s;
+cursor: pointer;
+}
+
+.icon:hover{
+    transform: scale(1.4);
+
+}
+
+.footer{
+    background: linear-gradient(0.5turn, #6E0003, #240306);
+    height: 100px;
+    padding: 40px;
+    padding-bottom:100px ;
+    font-size: 16px;
+}
+
+.credits{
+    opacity: .7;
+}
+
+.yhb{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.back{
+    text-align: right;
+    opacity: .7;
+    cursor: pointer;
+}

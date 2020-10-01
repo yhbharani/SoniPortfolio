@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "soniyo"
+    }
+  },
+  "defaultProject": "soniyo",
+  "cli": {
+    "analytics": "c7e36705-7b01-4035-9684-bf1e64a3c7e7"
+  }
 }
