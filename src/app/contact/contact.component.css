@@ -89,6 +89,7 @@ cursor: pointer;
         display: block;
         object-fit: cover;
         zoom: .3;
+        width: inherit;
     }
 }
 
@@ -351,7 +352,7 @@ cursor: pointer;
     }
 
     .logosOrtho{
-        display: flex;
+        display: inline-block;
        left: 45%;
     }
     .mashaal{
