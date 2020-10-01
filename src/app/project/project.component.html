@@ -9,7 +9,14 @@
         
         <div class="content">
 
-            <app-jnv></app-jnv>
+            <div [ngSwitch]="index">
+
+                <div *ngSwitchCase="1">
+                    <app-jnv></app-jnv>
+                </div>
+
+                <div *ngSwitchDefault>Project Not Found</div>
+            </div>
 
         </div>
     </div>
