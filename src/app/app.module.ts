@@ -11,11 +11,11 @@ import { ContactComponent } from './contact/contact.component';
 import { WorksComponent } from './works/works.component';
 
 import { NullComponent } from './null/null.component';
-import { ProjectsComponent } from './projects/projects.component';
 
 
 
 import { RouterModule } from '@angular/router';
+import { ProjectComponent } from './project/project.component';
 
 
 @NgModule({
@@ -25,7 +25,8 @@ import { RouterModule } from '@angular/router';
     IntroComponent,
     AboutComponent,
     ContactComponent,
-    WorksComponent
+    WorksComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +39,7 @@ import { RouterModule } from '@angular/router';
       },
       {
         path: 'project/:index', 
-        component: ProjectsComponent 
+        component: ProjectComponent 
       },
       
     ]),
