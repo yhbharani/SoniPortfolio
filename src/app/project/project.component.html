@@ -13,5 +13,11 @@
 
         </div>
     </div>
-    <mat-icon>keyboard_arrow_right</mat-icon>
+
+    <a class="clos" routerLink=""><mat-icon class="bandh">close</mat-icon></a>
+
+
+    <a class="next " [routerLink]="['/project', index+1]">    <mat-icon>keyboard_arrow_right</mat-icon>    </a>
+
+    <a class="previous" [routerLink]="['/project', index-1]"> <mat-icon >keyboard_arrow_left</mat-icon>    </a>
 </div>
