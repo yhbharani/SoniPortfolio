@@ -154,7 +154,7 @@ h1 {
 
   .Iam {
     padding-top: 1.8em;
-    font: normal 3vw/3.5vw Amethysta, serif;
+    font: normal 2.6vw/3.5vw Amethysta, serif;
     color: #fff;
     zoom: .65;
     min-width: 70vw;
@@ -180,11 +180,11 @@ h1 {
   
   
   /*animation*/
-  -webkit-animation:move 8s;
-     -moz-animation:move 8s;
-      -ms-animation:move 8s;
-       -o-animation:move 8s;
-          animation:move 8s;
+  -webkit-animation:move 7s;
+     -moz-animation:move 7s;
+      -ms-animation:move 7s;
+       -o-animation:move 7s;
+          animation:move 7s;
   /*animation-iteration-count*/
   -webkit-animation-iteration-count:infinite;
      -moz-animation-iteration-count:infinite;
@@ -354,7 +354,7 @@ h1 {
     
         .Iam {
             padding-top: 0.8em;
-            zoom: 1.8;
+            zoom: 2;
         }
         
     }
