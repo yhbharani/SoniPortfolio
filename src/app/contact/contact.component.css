@@ -89,7 +89,6 @@ cursor: pointer;
         display: block;
         object-fit: cover;
         zoom: .3;
-        width: inherit;
     }
 }
 
@@ -361,7 +360,7 @@ cursor: pointer;
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 460px) {
     .contact{
         background-image: url(../../assets/contactSmall.png);
         height: 180vw;
@@ -380,6 +379,7 @@ cursor: pointer;
         object-fit: cover;
         zoom: .3;
         right: 1.5em;
+        margin: 45px;
     }
 }
   
