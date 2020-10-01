@@ -12,10 +12,15 @@ import { WorksComponent } from './works/works.component';
 
 import { NullComponent } from './null/null.component';
 
+import {MatIconModule} from '@angular/material/icon';
+
+
 
 
 import { RouterModule } from '@angular/router';
 import { ProjectComponent } from './project/project.component';
+import { JnvComponent } from './project/jnv/jnv.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -26,12 +31,14 @@ import { ProjectComponent } from './project/project.component';
     AboutComponent,
     ContactComponent,
     WorksComponent,
-    ProjectComponent
+    ProjectComponent,
+    JnvComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    MatIconModule,
     RouterModule.forRoot([
       {
         path: '', 
@@ -43,6 +50,7 @@ import { ProjectComponent } from './project/project.component';
       },
       
     ]),
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
