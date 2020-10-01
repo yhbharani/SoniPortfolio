@@ -1,4 +1,3 @@
-<p>project works!</p>
 <!-- The Modal -->
 <div class="modal">
 
@@ -15,6 +14,38 @@
                     <app-jnv></app-jnv>
                 </div>
 
+                <div *ngSwitchCase="2">
+                    <app-convention></app-convention>
+                </div>
+
+                <div *ngSwitchCase="3">
+                    <app-kharsali></app-kharsali>
+                </div>
+
+                <div *ngSwitchCase="4">
+                    <app-apartment></app-apartment>
+                </div>
+
+                <div *ngSwitchCase="5">
+                    <app-cogni-beta></app-cogni-beta>
+                </div>
+
+                <div *ngSwitchCase="6">
+                    <app-yac></app-yac>
+                </div>
+
+                <div *ngSwitchCase="7">
+                    <app-hologram></app-hologram>
+                </div>
+
+                <div *ngSwitchCase="8">
+                    <app-cogni2019></app-cogni2019>
+                </div>
+
+                <div *ngSwitchCase="9">
+                    <app-artworks></app-artworks>
+                </div>
+
                 <div *ngSwitchDefault>Project Not Found</div>
             </div>
 
@@ -23,7 +54,7 @@
 
     <a class="clos" routerLink=""><mat-icon class="bandh">close</mat-icon></a>
 
-    <div *ngIf="index<10"> <!-- <<== Change Max No. of Projects !!-->
+    <div *ngIf="index<9"> <!-- <<== Change Max No. of Projects !!-->
 
         <a class="next " [routerLink]="['/project', index+1]">    <mat-icon>keyboard_arrow_right</mat-icon>    </a>
 
