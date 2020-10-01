@@ -9,9 +9,22 @@
 }
 
 .logos{
+
+    display: flex;
     position: relative;
     top: 77%;
     left: 20%;
+    -webkit-filter: drop-shadow(-5px 2px 25px #000);
+    filter: drop-shadow(-5px 2px 25px #000);
+    
+}
+
+.logosOrtho{
+
+    display: none;
+    position: relative;
+    top: 77%;
+    left: 17%;
     -webkit-filter: drop-shadow(-5px 2px 25px #000);
     filter: drop-shadow(-5px 2px 25px #000);
     
@@ -49,3 +62,60 @@ cursor: pointer;
     opacity: .7;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 1000px) {
+
+    .contact{
+      height: 90vw;
+    }
+
+    .logos{
+        display: none;
+    }
+
+    .logosOrtho{
+        display: flex;
+    }
+
+    .icon{
+        display: block;
+        object-fit: cover;
+        zoom: .3;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact{
+        height: 105vw;
+        background-position: left;
+    }
+
+    .logosOrtho{
+        display: flex;
+       left: 45%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact{
+        background-image: url(../../assets/contactSmall.png);
+        height: 180vw;
+        background-position: left;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .logosOrtho{
+        display: flex;
+       left: 3em;
+    }
+
+    .icon{
+        display: block;
+        object-fit: cover;
+        zoom: .3;
+        right: 1.5em;
+    }
+}
+
