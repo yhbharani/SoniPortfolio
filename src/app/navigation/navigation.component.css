@@ -21,7 +21,20 @@
     padding-right: 2%;
     max-width: 200px;
 }
-.option:hover{
+
+
+.upar{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    z-index: 1000;
+    font-size: 40px;
+    opacity: .8;
+    transition: transform .2s;
+
+}
+
+.option:hover, .upar:hover{
     transform: scale(1.1);
     opacity: 1;
     text-decoration-line: underline ;
@@ -46,5 +59,8 @@
     .option{
         max-width: 100px;
     }
+    .upar{
+        font-size: 24px;
     }
+}
     
