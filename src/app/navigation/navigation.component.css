@@ -1,10 +1,9 @@
 .nav{
     position: fixed;
     padding: 15px;
-    padding-left: 15%;
     margin: 0;
     width: 100%;
-    font-size: 18px;
+    font-size: 20px;
 
     background: linear-gradient(180deg, #420000 7.81%, #D30000 100%), #BD0000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -18,6 +17,9 @@
     text-align: center;
     cursor: pointer;
     transition: transform .2s;
+    padding-left: 2%;
+    padding-right: 2%;
+    max-width: 200px;
 }
 .option:hover{
     transform: scale(1.1);
@@ -25,3 +27,14 @@
     text-decoration-line: underline ;
 
 }
+
+@media screen and (max-width: 600px) {
+.nav{
+    font-size: 14px;
+}
+
+.option{
+    max-width: 100px;
+}
+}
+
