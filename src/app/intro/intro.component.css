@@ -50,7 +50,7 @@ h1 {
   span {
     color: #000;
     font-family: 'Caesar Dressing', cursive;
-    font-size: 5.5vw;
+    font-size: 6vw;
     text-transform: lowercase;
     vertical-align: middle;
     letter-spacing: .1em;
@@ -319,6 +319,7 @@ h1 {
 
     .title{
         top: 90%;
+        left: 5%;
     }
 
     h1{
@@ -341,5 +342,20 @@ h1 {
             background-color: black;
             height: 40vw;
         }
+
+        h1{
+            font-size: 3.5vw;
+        }
+    
+        span{
+            font-size: 11vw;
+        }
+    
+        .Iam {
+            zoom: 1.3;
+        }
+        
     }
+
+    
         

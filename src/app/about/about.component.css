@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 400px) {
     .about{
-        margin-top: 40vw;
+        margin-top: 50vw;
         height: 100vw;
         padding-left: 5vw ;
         background-image: url(../../assets/aboutSmall.png);
