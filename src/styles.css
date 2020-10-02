@@ -19,12 +19,14 @@ line-height: 21px !important;
 color: #ffffff;
 background: linear-gradient(0.4turn, #410101, #240306, #6E0003);
 
+
 }
 html, body {
     max-width: 100% !important;
     overflow-x: hidden !important;
     height: 100%;
     scroll-behavior: smooth;
+    margin: 0;
  }
 
 a{
